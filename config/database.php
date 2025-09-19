@@ -1,9 +1,9 @@
 <?php
 class Database
 {
-    private $host = "localhost";
-    private $db_name = "task_manager_db";
-    private $username = "root";
+    private $host = "";
+    private $db_name = "";
+    private $username = "";
     private $password = "";
     private $conn;
 
@@ -23,4 +23,5 @@ class Database
         return $this->conn;
     }
 }
+
 ?>
