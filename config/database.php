@@ -1,7 +1,6 @@
 <?php
-// Database.php
 // A simple class to manage database connection using PDO
-// Safe to push to a public repository: no sensitive info included
+
 
 class Database
 {
@@ -38,3 +37,4 @@ class Database
     }
 }
 ?>
+
